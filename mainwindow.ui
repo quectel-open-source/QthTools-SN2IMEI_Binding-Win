@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>9</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>9</number>
+    </property>
+    <property name="bottomMargin">
+     <number>9</number>
+    </property>
+    <property name="spacing">
+     <number>6</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>                                                   欢迎使用本工具！</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_main">
+       <layout class="QGridLayout" name="gridLayout_3"/>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>744</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action_importFile"/>
+    <addaction name="action_exportFile"/>
+    <addaction name="action_clearData"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_helpFile"/>
+    <addaction name="action_tool"/>
+   </widget>
+   <addaction name="menu_2"/>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="action_usart">
+   <property name="text">
+    <string>串口</string>
+   </property>
+  </action>
+  <action name="action_createFile">
+   <property name="text">
+    <string>新建文件</string>
+   </property>
+  </action>
+  <action name="action_openFile">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="action_saveFile">
+   <property name="text">
+    <string>保存文件</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="action_saveOtherFile">
+   <property name="text">
+    <string>文件另存为</string>
+   </property>
+  </action>
+  <action name="action_importFile">
+   <property name="text">
+    <string>导入</string>
+   </property>
+  </action>
+  <action name="action_exportFile">
+   <property name="text">
+    <string>导出</string>
+   </property>
+  </action>
+  <action name="action_clearData">
+   <property name="text">
+    <string>清除</string>
+   </property>
+  </action>
+  <action name="action_helpFile">
+   <property name="text">
+    <string>帮助文档</string>
+   </property>
+  </action>
+  <action name="action_tool">
+   <property name="text">
+    <string>在线升级检测</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
