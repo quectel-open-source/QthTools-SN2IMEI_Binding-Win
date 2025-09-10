@@ -28,7 +28,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <QItemDelegate>
 
 bool handleInputDataMutex;
-QStringList horizontalHeaderText = {QString::fromLocal8Bit("*设备DeviceKey"),QString::fromLocal8Bit("*产品ProductKey"),QString::fromLocal8Bit("*设备SN"),QString::fromLocal8Bit("设备名称")};
+QStringList horizontalHeaderText = {QString::fromLocal8Bit("*产品ProductKey"),QString::fromLocal8Bit("*设备DeviceKey"),QString::fromLocal8Bit("*设备SN"),QString::fromLocal8Bit("设备名称")};
 enum
 {
     CHECK_NOMAL_MODE=0,
@@ -509,12 +509,12 @@ QString newTableWidget::headerTextListToString(QStringList info)
     {
         info = horizontalHeaderText;
     }
-     for(int i = 0;i<info.size();i++)
-     {
-         headerName.append(info.at(i)+",");
-     }
-     headerName.chop(1);
-     return headerName;
+    for(int i = 0;i<info.size();i++)
+    {
+        headerName.append(info.at(i)+",");
+    }
+    headerName.append(QString::fromLocal8Bit("证书指纹"));
+    return headerName;
 
 }
 

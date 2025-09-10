@@ -1,1 +1,1 @@
-﻿*设备DeviceKey_!!_*产品ProductKey_!!_*设备SN_!!_设备名称
+﻿*产品ProductKey_!!_*设备DeviceKey_!!_*设备SN_!!_设备名称
