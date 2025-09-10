@@ -6222,12 +6222,12 @@
          <row/>
          <column>
           <property name="text">
-           <string>*设备DeviceKey</string>
+           <string>*产品ProductKey</string>
           </property>
          </column>
          <column>
           <property name="text">
-           <string>*产品ProductKey</string>
+           <string>*设备DeviceKey</string>
           </property>
          </column>
          <column>

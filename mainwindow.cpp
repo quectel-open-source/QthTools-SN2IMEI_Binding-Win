@@ -21,7 +21,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <QDebug>
 #include <QDateTime>
 #include "third/QSimpleUpdater/include/updateConfig.h"
-QString softwareVersion = "1.0.0";
+QString softwareVersion = "1.2.0";
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)

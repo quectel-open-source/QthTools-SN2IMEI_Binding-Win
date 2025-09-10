@@ -1,7 +1,7 @@
-This project is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+QthTools-SN2IMEI_Binding-Win is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program incorporates code from the Qt Toolkit, which is:
-Copyright (C) 2025 The Qt Company Ltd. 
+Copyright (C) The Qt Company Ltd. [YEAR].
 Qt is distributed under the terms of the GNU General Public License version 3 (or later).
 
 For full details, please see the `LICENSE` file and the Qt licensing pages:
